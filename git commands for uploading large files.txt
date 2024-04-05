@@ -1,0 +1,64 @@
+C:\Users\kalpa>cd onedrive
+
+C:\Users\kalpa\OneDrive>cd desktop
+
+C:\Users\kalpa\OneDrive\Desktop>git clone https://github.com/Kalpanamer/kalpanamer-tour---travel-site.github.io.git
+Cloning into 'kalpanamer-tour---travel-site.github.io'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\kalpa\OneDrive\Desktop>cd kalpanamer-tour---travel-site.github.io
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git lfs install
+Updated Git hooks.
+Git LFS initialized.
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git lfs track "*.mov"
+Tracking "*.mov"
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git add .
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git commit -m "LFS"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'kalpa@kalpana.(none)')
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git config --global user.email "kalpanamer669@gmail.com"
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git config --global user.name "kalpana mer"
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git commit -m "LFS"
+[main de94f63] LFS
+ 6 files changed, 1 insertion(+)
+ create mode 100644 .gitattributes
+ create mode 100644 video-(1).mp4.mp4
+ create mode 100644 video-(2).mp4.mp4
+ create mode 100644 video-(3).mp4.mp4
+ create mode 100644 video-(4).mp4.mp4
+ create mode 100644 video-(5).mp4.mp4
+
+C:\Users\kalpa\OneDrive\Desktop\kalpanamer-tour---travel-site.github.io>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 152.93 MiB | 1.94 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File video-(1).mp4.mp4 is 80.50 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/Kalpanamer/kalpanamer-tour---travel-site.github.io.git
+   9c5181f..de94f63  main -> main
